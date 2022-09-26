@@ -498,7 +498,7 @@ input[type="range"] {
 /* Resposive Part  
 All media Queries are here */
 
-@media  (max-width:576 px) {
+@media  (max-width:576px) {
      
     
 #main-aside {
