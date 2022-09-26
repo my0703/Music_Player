@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music_Player</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <!-- header section  -->
+
+    <header id="navbar">
+        <img class="logo" src="images/music-note.png">
+        <a href="#" style="text-decoration: none; color:white;">Favourite</a>
+        <div>
+            <button type="submit"><img src="images/search.png"></button>
+            <input type="text" placeholder="Search.....">
+            <button type="submit"><img src="images/mic.png"></button>
+        </div>
+        <img class="notification" src="images/icons8-notification-100.png">
+        <img class="profile" src="images/profile3.jpeg" alt="profile">
+
+
+    </header>
+
+
+
+    <!-- main section -->
+
+    <section id="main-aside">
+
+        <main id="content">
+
+            <div id="song-type">
+                <img class="song-variety" src="images/Boost-Your-Mood-English-2009-500x500.jpg">
+                <img class="song-variety" src="images/dance-club.jpg">
+                <img class="song-variety" src="images/bollywood butter.jpg">
+                <img class="song-variety" src="images/popu-party.jpg">
+
+            </div>
+
+            <div id="latest-release">
+                <h3>Latest Release</h3>
+                <div class="latest-release-container">
+                    <div class="album-art">
+                        <img src="images/kesariya.jpg">
+                        <div class="song-singer-name">
+                            <p>Kesariya</p>
+                            <p>Arijit Singh</p>
+
+                        </div>
+                    </div>
+                    <div class="album-art">
+                        <img src="images/Jaawani Teri Aafat Lyrics.jpg">
+                        <div class="song-singer-name">
+                            <p>Jaawani Teri Aafat</p>
+                            <p>Tanishq</p>
+
+                        </div>
+                    </div>
+                    <div class="album-art">
+                        <img src="images/Distance-Love-Punjabi-2021-20220803064606-500x500.jpg">
+                        <div class="song-singer-name">
+                            <p>Distance Love</p>
+                            <p>Yaari Ghuman</p>
+
+                        </div>
+                    </div>
+                    <div class="album-art">
+                        <img src="images/jugnu.jpg">
+                        <div class="song-singer-name">
+                            <p>Jugnu</p>
+                            <p>Badshah</p>
+
+                        </div>
+                    </div>
+                    <div class="album-art">
+                        <img src="images/fitoor-shamsera.jpg">
+                        <div class="song-singer-name">
+                            <p>Fitoor</p>
+                            <p>Arijit Singh || Neeti Mohan</p>
+
+                        </div>
+                    </div>
+                    <div class="album-art">
+                        <img src="images/Rangi-Saari-Hindi-2020-20210702175121-500x500.jpg">
+                        <div class="song-singer-name">
+                            <p>Rangi Sari</p>
+                            <p>Kanishk Seth || Kavita Seth</p>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="popular-artist">
+                <h3>Popular Artist</h3>
+                <div class="popular-artist-container">
+                    <div class="img-singer-name">
+                        <a href="artist-page.html" target="_blank">
+                            <img src="images/arijit-jpg.webp">
+                            <img id="hover-play" src="images/icons8-play-button-circled-96.png">
+                        </a>
+                        <p id="popular-artist-name">Arijit Singh</p>
+                    </div>
+                    <div class="img-singer-name">
+                        <a href="artist-page.html" target="_blank">
+                            <img src="images/jasmine sandals.jpg">
+                            <img id="hover-play" src="images/icons8-play-button-circled-96.png">
+                        </a>
+                        <p id="popular-artist-name">Jasmine Sandals</p>
+                    </div>
+                    <div class="img-singer-name">
+                        <a href="artist-page.html" target="_blank">
+                            <img src="images/ap-dhillion.jpg">
+                            <img id="hover-play" src="images/icons8-play-button-circled-96.png">
+                        </a>
+                        <p id="popular-artist-name">Ap Dhillon</p>
+                    </div>
+                    <div class="img-singer-name">
+                        <a href="artist-page.html" target="_blank">
+                            <img src="images/diljit dosanj.jpg">
+                            <img id="hover-play" src="images/icons8-play-button-circled-96.png">
+                        </a>
+                        <p id="popular-artist-name">Diljit Dosanjh</p>
+                    </div>
+                    <div class="img-singer-name">
+                        <a href="artist-page.html" target="_blank">
+                            <img src="images/kkobituary51654076210.webp">
+                            <img id="hover-play" src="images/icons8-play-button-circled-96.png">
+                        </a>
+                        <p id="popular-artist-name">K.K</p>
+                    </div>
+                    <div class="img-singer-name">
+                        <a href="artist-page.html" target="_blank">
+                            <img src="images/jasleen royal.webp">
+                            <img id="hover-play" src="images/icons8-play-button-circled-96.png">
+                        </a>
+                        <p id="popular-artist-name">Jasleen Royal</p>
+                    </div>
+                    <div class="img-singer-name">
+                        <a href="artist-page.html" target="_blank">
+                            <img src="images/sidhu.jpg">
+                            <img id="hover-play" src="images/icons8-play-button-circled-96.png">
+                        </a>
+                        <p id="popular-artist-name">Sidhu MoseWala</p>
+                    </div>
+                    <div class="img-singer-name">
+                        <a href="artist-page.html" target="_blank">
+                            <img src="images/mohit-chauhan.jpg">
+                            <img id="hover-play" src="images/icons8-play-button-circled-96.png">
+                        </a>
+                        <p id="popular-artist-name">Mohit Chauhan</p>
+                    </div>
+                    <div class="img-singer-name">
+                        <a href="artist-page.html" target="_blank">
+                            <img src="images/ARRahman.jpg">
+                            <img id="hover-play" src="images/icons8-play-button-circled-96.png">
+                        </a>
+                        <p id="popular-artist-name">A.R. Rahman</p>
+                    </div>
+                    <div class="img-singer-name">
+                        <a href="artist-page.html" target="_blank">
+                            <img src="images/akasa.jpg">
+                            <img id="hover-play" src="images/icons8-play-button-circled-96.png">
+                        </a>
+                        <p id="popular-artist-name">Akasa</p>
+                    </div>
+                    <div class="img-singer-name">
+                        <a href="artist-page.html" target="_blank">
+                            <img src="images/jubin.webp">
+                            <img id="hover-play" src="images/icons8-play-button-circled-96.png">
+                        </a>
+                        <p id="popular-artist-name">Jubin Nautiyal</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="category">
+                <div class="category-container">
+                    <h3>Category</h3>
+                    <div class="category-element">
+                        <div class="category-img-name">
+                            <img src="images/today-love-song.jpg">
+                            <p>Love</p>
+                        </div>
+                        <div class="category-img-name">
+                            <img src="images/Retro-Bollywood-Collection-Vol-1-2012-500x500.jpg">
+                            <p>Retro</p>
+                        </div>
+                        <div class="category-img-name">
+                            <img src="images/pop-song.jpg">
+                            <p>Pop</p>
+                        </div>
+                        <div class="category-img-name">
+                            <img src="images/chill.jpg">
+                            <p>Chill</p>
+                        </div>
+                        <div class="category-img-name">
+                            <img src="images/workout.jpg">
+                            <p>Workout</p>
+                        </div>
+                        <div class="category-img-name">
+                            <img src="images/rock-song-challenge.png">
+                            <p>Rock</p>
+                        </div>
+                        <div class="category-img-name">
+                            <img src="images/indie-pop.jpg">
+                            <p>Indie-Pop</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="song-ocassion">
+                <div class="song-ocassion-element">
+
+
+                    <div class="song-ocassion-container">
+                        <img src="images/best-party-songs.jpg">
+                        <p>Party Songs</p>
+                    </div>
+                    <div class="song-ocassion-container">
+                        <img src="images/electroni.jpg">
+                        <p>Electronics Songs</p>
+                    </div>
+                    <div class="song-ocassion-container">
+                        <img src="images/road-trip.jpg">
+                        <p>Road-Trip Songs</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="latest-hindi">
+                <h3>Latest Hindi</h3>
+                <div class="latest-song-element">
+                    <div class="latest-song-container">
+                        <img src="images/letst-hindi/akhiyan-Mitraz.jpg">
+                        <p>Akhiyan||Mitraz</p>
+                    </div>
+                    <div class="latest-song-container">
+                        <img src="images/letst-hindi/Hawa-Banke-Single-Punjabi-2019-20190710170223-500x500.jpg">
+                        <p>Hawa Banke||Darshan Rawal</p>
+                    </div>
+                    <div class="latest-song-container">
+                        <img src="images/letst-hindi/liggi.jpg">
+                        <p>Liggi||Ritviz</p>
+                    </div>
+                    <div class="latest-song-container">
+                        <img src="images/letst-hindi/mehbooba-anay-bhat.jpg">
+                        <p>Mehbooba||Ananya Bhat</p>
+                    </div>
+                    <div class="latest-song-container">
+                        <img src="images/letst-hindi/psyco-Sachet-tondon.jpg">
+                        <p>Psyco Saiyaan||Sachet Tondon</p>
+                    </div>
+                    <div class="latest-song-container">
+                        <img src="images/letst-hindi/ranjha-bprak.jpg">
+                        <p>Ranjha||B Praak</p>
+                    </div>
+                    <div class="latest-song-container">
+                        <img src="images/letst-hindi/ranjha-bprak.jpg">
+                        <p>Ranjha||B Praak</p>
+                    </div>
+                    <div class="latest-song-container">
+                        <img src="images/letst-hindi/saami-Mounika-yadav.jpg">
+                        <p>Saami Saami||Mounika Yadav</p>
+                    </div>
+                    <div class="latest-song-container">
+                        <img src="images/letst-hindi/saami-Mounika-yadav.jpg">
+                        <p>Saami Saami||Mounika Yadav</p>
+                    </div>
+                    <div class="latest-song-container">
+                        <img src="images/letst-hindi/saibo-sachin-jiger.jpg">
+                        <p>Saibo||Sachin Jiger</p>
+                    </div>
+                    <div class="latest-song-container">
+                        <img src="images/letst-hindi/saibo-sachin-jiger.jpg">
+                        <p>Saibo||Sachin Jiger</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="latest-Punjabi">
+                <h3>Latest Hariyanvi</h3>
+                <div class="latest-song-element">
+                    <div class="latest-song-container">
+                        <img src="images/letst-punjabi/athra-style-sidhu.jpg">
+                        <p>Athra Style||Sidhu Mosewala</p>
+                    </div>
+                    <div class="latest-song-container">
+                        <img src="images/letst-punjabi/bhabhi-mankirt.jpg">
+                        <p>Bhabhi||Mankirt Aulakh</p>
+                    </div>
+                    <div class="latest-song-container">
+                        <img src="images/letst-punjabi/Daroga-Ji-ruchika-jangid.jpg">
+                        <p>Daroga Ji||Ruchika Jangid</p>
+                    </div>
+                    <div class="latest-song-container">
+                        <img src="images/letst-punjabi/gypsy-gdkaur.jpg">
+                        <p>Gypsy||G.D.Kaur</p>
+                    </div>
+                    <div class="latest-song-container">
+                        <img src="images/letst-punjabi/midnight-permish.jpg">
+                        <p>Midnight||Permish Verma</p>
+                    </div>
+                    <div class="latest-song-container">
+                        <img src="images/letst-punjabi/peaches-diljit.jpg">
+                        <p>Peaches||Diljit Dosanjh</p>
+                    </div>
+                    <div class="latest-song-container">
+                        <img src="images/letst-punjabi/peaches-diljit.jpg">
+                        <p>Peaches||Diljit Dosanjh</p>
+                    </div>
+                    <div class="latest-song-container">
+                        <img src="images/letst-punjabi/ustaad-sidhu.jpg">
+                        <p>Ustaad||Sidhu Mosewala</p>
+                    </div>
+                    <div class="latest-song-container">
+                        <img src="images/letst-punjabi/wrong-report-desi-crew.jpg">
+                        <p>Wrong Report||Desi Crew</p>
+                    </div>
+                    <div class="latest-song-container">
+                        <img src="images/letst-punjabi/wrong-report-desi-crew.jpg">
+                        <p>Wrong Report||Desi Crew</p>
+                    </div>
+                    <div class="latest-song-container">
+                        <img src="images/letst-punjabi/wrong-report-desi-crew.jpg">
+                        <p>Wrong Report||Desi Crew</p>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+
+
+        <!-- Aside section -->
+
+        <aside>
+            <div id="queue">
+                <h3>Queue</h3>
+
+                <div class="queue-songs">
+                    <img src="images/letst-punjabi/athra-style-sidhu.jpg">
+                    <p id="queue-name">Athra Style||Sidhu Mosewala</p>
+                    <img id="heart-icon" src="images/icons8-favorite-16.png">
+                </div>
+                <div class="queue-songs">
+                    <img src="images/letst-punjabi/bhabhi-mankirt.jpg">
+                    <p id="queue-name">Bhabhi||Mankirt Aulakh</p>
+                    <img id="heart-icon" src="images/icons8-favorite-16.png">
+                </div>
+                <div class="queue-songs">
+                    <img src="images/letst-punjabi/midnight-permish.jpg">
+                    <p id="queue-name">Midnight||Permish Verma</p>
+                    <img id="heart-icon" src="images/icons8-favorite-16.png">
+                </div>
+                <div class="queue-songs">
+                    <img src="images/letst-punjabi/ustaad-sidhu.jpg">
+                    <p id="queue-name">Ustaad||Sidhu Mosewala</p>
+                    <img id="heart-icon" src="images/icons8-favorite-16.png">
+                </div>
+                <div class="queue-songs">
+                    <img src="images/letst-hindi/mehbooba-anay-bhat.jpg">
+                    <p id="queue-name">Mehbooba||Ananya Bhat</p>
+                    <img id="heart-icon" src="images/icons8-favorite-16.png">
+                </div>
+                <div class="queue-songs">
+                    <img src="images/letst-hindi/akhiyan-Mitraz.jpg">
+                    <p id="queue-name">Akhiyan||Mitraz</p>
+                    <img id="heart-icon" src="images/icons8-favorite-16.png">
+                </div>
+                <div class="queue-songs">
+                    <img src="images/letst-hindi/Hawa-Banke-Single-Punjabi-2019-20190710170223-500x500.jpg">
+                    <p id="queue-name">Hawa Banke||Darshan Rawal</p>
+                    <img id="heart-icon" src="images/icons8-favorite-16.png">
+                </div>
+                <div class="queue-songs">
+                    <img src="images/letst-hindi/saibo-sachin-jiger.jpg">
+                    <p id="queue-name">Saibo||Sachin Jiger</p>
+                    <img id="heart-icon" src="images/icons8-favorite-16.png">
+                </div>
+                <div class="queue-songs">
+                    <img src="images/letst-hindi/liggi.jpg">
+                    <p id="queue-name">Liggi||Ritviz</p>
+                    <img id="heart-icon" src="images/icons8-favorite-16.png">
+                </div>
+                <div class="queue-songs">
+                    <img src="images/letst-punjabi/wrong-report-desi-crew.jpg">
+                    <p id="queue-name">Wrong Report||Desi Crew</p>
+                    <img id="heart-icon" src="images/icons8-favorite-16.png">
+                </div>
+                <div class="queue-songs">
+                    <img src="images/letst-hindi/saami-Mounika-yadav.jpg">
+                    <p id="queue-name">Saami Saami||Mounika Yadav</p>
+                    <img id="heart-icon" src="images/icons8-favorite-16.png">
+                </div>
+                <div class="queue-songs">
+                    <img src="images/letst-hindi/ranjha-bprak.jpg">
+                    <p id="queue-name">Ranjha||B Praak</p>
+                    <img id="heart-icon" src="images/icons8-favorite-16.png">
+                </div>
+                <div class="queue-songs">
+                    <img src="images/letst-hindi/psyco-Sachet-tondon.jpg">
+                    <p id="queue-name">Psyco Saiyaan||Sachet Tondon</p>
+                    <img id="heart-icon" src="images/icons8-favorite-16.png">
+                </div>
+                <div class="queue-songs">
+                    <img src="images/letst-punjabi/peaches-diljit.jpg">
+                    <p id="queue-name">Peaches||Diljit Dosanjh</p>
+                    <img id="heart-icon" src="images/icons8-favorite-16.png">
+                </div>
+                <div class="queue-songs">
+                    <img src="images/letst-punjabi/gypsy-gdkaur.jpg">
+                    <p id="queue-name">Gypsy||G.D.Kaur</p>
+                    <img id="heart-icon" src="images/icons8-favorite-16.png">
+                </div>
+                <div class="queue-songs">
+                    <img src="images/letst-punjabi/Daroga-Ji-ruchika-jangid.jpg">
+                    <p id="queue-name">Daroga Ji||Ruchika Jangid</p>
+                    <img id="heart-icon" src="images/icons8-favorite-16.png">
+                </div>
+                <div class="queue-songs">
+                    <img src="images/fitoor-shamsera.jpg">
+                    <p id="queue-name">Fitoor||Arijit Singh</p>
+                    <img id="heart-icon" src="images/icons8-favorite-16.png">
+                </div>
+                <div class="queue-songs">
+
+                </div>
+                <div class="queue-songs">
+
+                </div>
+                <div class="queue-songs">
+
+                </div>
+                <div class="queue-songs">
+
+                </div>
+                <div class="queue-songs">
+
+                </div>
+            </div>
+            </div>
+
+        </aside>
+
+    </section>
+
+
+    <!-- Footer section -->
+
+    <footer>
+        <!-- Song Thumnail, Title, Singer -->
+        <div id="footer-song-info">
+            <div id="footer-song-image">
+                <img style="width: 50px; height: 50px;"
+                    src="images/Distance-Love-Punjabi-2021-20220803064606-500x500.jpg">
+            </div>
+            <div id="footer-song-name">
+                <span>Peaches</span>
+
+                <span class="subtitle">justine biber</span>
+            </div>
+            <div>
+                <span>
+                    <i class="far fa-heart subtitle"></i>
+                </span>
+                <span>
+                    <i class="fas fa-ban subtitle"></i>
+                </span>
+            </div>
+        </div>
+
+        <!-- Contains Player Controls: Play, Pause, Next, Previous, Shuffle and Repeat with Slider -->
+        <div id="player">
+
+            <div id="player-control">
+                <div><i class="fas fa-random"></i></div>
+                <div><i class="fas fa-step-backward"></i></div>
+                <div><i class="far fa-pause-circle" style="font-size: 2rem;"></i></div>
+                <div><i class="fas fa-step-forward"></i></div>
+                <div><i class="fas fa-redo"></i></div>
+            </div>
+
+            <div id="player-slider-container">
+                <div class="subtitle">
+                    0:00
+                </div>
+
+                <input type="range" min="0" max="100" value="25">
+
+                <div class="subtitle">
+                    4:44
+                </div>
+            </div>
+        </div>
+
+        <!-- Volume buttom, Expand button -->
+        <div class="player-extras">
+            <div>
+                <i class="fas fa-list-ul"></i>
+            </div>
+            <div>
+                <i class="fas fa-laptop"></i>
+            </div>
+
+            <div class="volume-container">
+                <span><i class="fas fa-volume-up"></i></span>
+                <input type="range" min="0" max="100" value="50" class="slider" id="volume-slider">
+            </div>
+            <div><i class="fas fa-expand"></i></div>
+        </div>
+
+    </footer>
+
+
+
+
+
+</body>
+
+</html>

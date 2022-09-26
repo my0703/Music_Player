@@ -1,0 +1,218 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#main-aside2 {
+    display: flex;
+}
+
+
+#artist-content {
+    width: 100%;
+    height: 100%;
+   
+}
+
+/* #artist-content::-webkit-scrollbar{
+    display: none;
+} */
+
+#artist-detail {
+    background-color: rgb(52, 68, 83);
+    display: flex;
+    margin: 120px 30px 30px 50px;
+    border-radius: 10px;
+}
+
+.artist-img img {
+    margin: 5px;
+    padding: 15px;
+    width: 300px;
+    height: 400px;
+}
+
+.artist-about {
+    margin: 20px;
+}
+
+.artist-name h4 {
+    font-size: 2rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+#flwup {
+    position: relative;
+    top: -100px;
+    left: 500px;
+    color: rgb(123, 116, 116);
+    font-family: sans-serif;
+    font-size: .8rem;
+}
+
+.artist-name p {
+    font-size: 1.1rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    margin-top: -28px;
+    color: rgb(220, 215, 215);
+}
+
+.play-follow-btn {
+    margin-top: 70px;
+}
+
+#play-btn {
+    width: 90px;
+    height: 40px;
+    margin: 40px 90px 40px 40px;
+    background-color: rgb(108, 28, 205);
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#play-btn:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+#follow-btn {
+    border: none;
+    background-color: transparent;
+    font-size: medium;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#follow-btn:hover {
+    text-decoration: underline;
+    color: #fff;
+
+}
+
+.artist-song {
+    width: 100%;
+
+}
+
+.artist-song-container {
+    margin: 50px 0px 0px 60px;
+
+}
+
+hr {
+    width: 80%;
+    align-items: center;
+}
+
+.artist-songs img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: auto 10px auto 20px;
+}
+
+.artist-songs {
+    width: 100%;
+    height: 69px;
+    color: #fff;
+    display: flex;
+
+}
+
+.artist-songs p {
+    margin: auto 0px auto 50px;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-family: sans-serif
+}
+
+#icon-plus {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 700px;
+    margin-top: 22px;
+}
+
+#icon-heart {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 900px;
+    margin-top: 24.5px;
+}
+
+
+#aside-content {
+    width: 30vw;
+    height: 100vh;
+}
+
+#similar-Artist {
+    width: 100%;
+    height: 40vh;
+    margin-top: 129px;
+    overflow-y: scroll;
+}
+
+#similar-Artist::-webkit-scrollbar {
+    display: none;
+}
+
+#icon-heart-side {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    margin-top: 13px;
+    margin-bottom: auto;
+    left: 56px;
+}
+
+.similar-item {
+    display: flex;
+    width: 100%;
+    height: 80px;
+}
+
+.similar-item img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+#recently-played {
+    width: 100%;
+    height: 100vh;
+    margin-top: 30px;
+    overflow-y: scroll;
+}
+
+#recently-played::-webkit-scrollbar {
+    display: none;
+}
+
+.recently-play-item {
+    display: flex;
+    width: 100%;
+    height: 80px;
+}
+
+.recently-play-item img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.section-name {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    text-decoration: bold;
+    letter-spacing: .2rem;
+}
